@@ -1,0 +1,88 @@
+video#bgvid {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+}
+
+.my_name {
+    text-align:center;
+}
+
+.my_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  width: 150;
+  height: 200;
+  border-radius: 100%;
+}
+
+.intro_comment {
+    text-align: center;
+}
+
+#myVideo {
+  position: absolute;
+  right: auto;
+  bottom: auto;
+  min-width: 10%;
+  min-height: 10%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%,-50%);
+  object-fit: cover;
+}
+
+.navbar-expand-lg {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    padding-left: 30%;
+    padding-right: 25%;
+}
+
+.btn-primary:hover, .btn-success:hover{
+    color: #fff;
+    background-color: #00b3db;
+    border-color: #285e8e; /*set the color you want here*/
+}
+
+.content {
+  position: fixed;
+  top: 20%;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+</style>
