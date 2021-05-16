@@ -145,3 +145,32 @@ nav li a {
 .page-title {
   opacity: 0.75 !important;
 }
+
+.paperTitle {
+    text-decoration: none;
+    color: black;
+}
+
+.paperTitle:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.thesisButton {
+    color: black;
+    margin: 2rem;
+    padding: 2rem
+}
+
+hr {
+    border: 10px dotted white;
+    border-style: none none dotted;
+    color: #fff;
+    width: 30%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    height: 12px;
+    size: 20;
+}
