@@ -1,31 +1,25 @@
-/* Object selector */
+video#bgvid {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+<style>
+* {
+  box-sizing: border-box;
+}
+
 body {
-    background-color: grey;o
-    margin-top: 10% ;
-}
-h1 {
-    color: white;
-    text-align: center;
-}
-
-h2 {
-    color: white;
-    text-align: center;
-}
-
-/* Class selector */
-.top_panel {
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
-}
-
-.intro_comment {
-    text-align: center;
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
 }
 
 .my_name {
-    font-family: 'DotGothic16', sans-serif;
+    text-align:center;
 }
 
 .my_image {
@@ -39,12 +33,20 @@ h2 {
   border-radius: 100%;
 }
 
-.button {
-    display: inline-block;
-    backgroud-color: white;
-    horizontal-align: middle;
-    height: 10em;
-    width: 10em;
+.intro_comment {
+    text-align: center;
+}
+
+#myVideo {
+  position: absolute;
+  right: auto;
+  bottom: auto;
+  min-width: 10%;
+  min-height: 10%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%,-50%);
+  object-fit: cover;
 }
 
 .navbar-expand-lg {
@@ -60,3 +62,27 @@ h2 {
     background-color: #00b3db;
     border-color: #285e8e; /*set the color you want here*/
 }
+
+.content {
+  position: fixed;
+  top: 20%;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+</style>
