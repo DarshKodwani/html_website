@@ -1,17 +1,15 @@
-.colored-section {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
 /* Testimonial Section */
 
 #testimonials {
-  background-color: #ef8172;
+    background-color:grey;
+    padding-top: 3rem;
+    margin-top: 2rem;
 }
 
 .testimonial-text {
-  font-size: 3rem;
+  font-size: 1rem;
   line-height: 1.5;
+  font-style: italic;
 }
 
 .testimonial-image {
@@ -22,11 +20,21 @@
 
 
 #press {
-  background-color: #ef8172;
+  background-color: grey;
   padding-bottom: 3%;
 }
 
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+.referenceWriter {
+    text-decoration: none;
+    color: black;
+}
+
+.referenceCompany {
+    text-decoration: none;
+    color: black;
 }
