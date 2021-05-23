@@ -38,15 +38,7 @@ body {
 }
 
 #myVideo {
-  position: absolute;
-  right: auto;
-  bottom: auto;
-  min-width: 10%;
-  min-height: 10%;
-  width: auto;
-  height: auto;
-  transform: translate(-50%,-50%);
-  object-fit: cover;
+    center: auto;
 }
 
 .navbar-expand-lg {
@@ -68,7 +60,6 @@ body {
   top: 20%;
   color: #f1f1f1;
   width: 100%;
-  padding: 20px;
 }
 
 #myBtn {
