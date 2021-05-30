@@ -1,61 +1,4 @@
-video#bgvid {
-  height: 100vh;
-  width: 100vw;
-  object-fit: cover;
-  overflow: hidden;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-}
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-  font-size: 17px;
-}
-
-.my_name {
-    text-align:center;
-}
-
-.my_image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2em;
-  margin-top: 2em;
-  width: 150;
-  height: 200;
-  border-radius: 100%;
-}
-
-.intro_comment {
-    text-align: center;
-}
-
-#myVideo {
-  position: absolute;
-  right: auto;
-  bottom: auto;
-  min-width: 10%;
-  min-height: 10%;
-  width: auto;
-  height: auto;
-  transform: translate(-50%,-50%);
-  object-fit: cover;
-}
-
-.navbar-expand-lg {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-    padding-left: 30%;
-    padding-right: 25%;
-}
+/* Class selector */
 
 .btn-primary:hover, .btn-success:hover{
     color: #fff;
@@ -63,26 +6,130 @@ body {
     border-color: #285e8e; /*set the color you want here*/
 }
 
-.content {
-  position: fixed;
-  top: 20%;
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
+.hoverable {
+  display: inline-block;
+  backface-visibility: hidden;
+  vertical-align: middle;
+  position: relative;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  tranform: translateZ(0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+  text-decoration: none;
+  color: white;;
 }
 
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
+.hoverable:before {
+  position: absolute;
+  pointer-events: none;
+  z-index: -1;
+  content: "";
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+  /* W3C */
+  transition-duration: 0.3s;
+  transition-property: transform, opacity;
 }
 
-#myBtn:hover {
-  background: #ddd;
-  color: black;
+
+.hoverable:hover, .hoverable:active, .hoverable:focus {
+  transform: translateY(-5px);
 }
-</style>
+
+.hoverable:hover:before, .hoverable:active:before, .hoverable:focus:before {
+  opacity: 1;
+  transform: translateY(-5px);
+}
+
+@keyframes bounce-animation {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.bounce {
+  animation-name: bounce-animation;
+  animation-duration: 2s;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+@media (min-width: 1208px) {
+  .navbar {
+    text-align: center !important;
+    float: none;
+    display: inline-block;
+  }
+}
+body {
+  background-color: black;
+  font-weight: 600;
+  text-align: center !important;
+  color: white;
+}
+
+nav {
+  background: none !important;
+  text-transform: uppercase;
+}
+nav li {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+nav li a {
+  transition: 0.5s color ease-in-out;
+}
+
+.intro_comment {
+    background-color: grey;
+    margin: 2rem;
+}
+
+.groups.image{
+    position: fixed;
+    background-color: red;
+    width: 20%;
+    height: 30%;
+    margin-left: 10%;
+    margin-bottom: 30%;
+}
+
+.groups.text{
+    position: fixed;
+    background-color: red;
+    width: 20%;
+    height: 30%;
+    margin-left: 32%;
+    margin-bottom: 40%;
+}
