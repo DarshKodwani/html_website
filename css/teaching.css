@@ -150,7 +150,7 @@ nav li a {
 .ax1 {
     background-color: red;
     height: 10rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 .ax2image {
@@ -327,7 +327,7 @@ nav li a {
     margin-left: 32%;
 }
 
-.thesisButton {
+.notesButton {
     color: black;
     margin: 1rem;
     padding: 1rem;
@@ -335,11 +335,11 @@ nav li a {
     color: black;
 }
 
-.thesisUrl {
+.notesUrl {
     text-decoration: none;
     color: white;
 }
 
-.thesisUrl:hover {
+.notesUrl:hover {
     color: black;
 }
