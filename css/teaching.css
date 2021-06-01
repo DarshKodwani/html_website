@@ -126,21 +126,205 @@ nav li a {
     margin: 2rem;
 }
 
+.bx1 {
+    height: 10rem;
+    margin-top: 5rem;
+}
+
+.bx2image {
+    margin-top: 1%;
+    position: absolute;
+    width: 30%;
+    height: inherit;
+    margin-left: 10rem;
+}
+
+.bx2text {
+    margin-top: 1%;
+    position: absolute;
+    width: 30%;
+    height: inherit;
+    margin-left: 50rem;
+}
+
+.ax1 {
+    background-color: red;
+    height: 10rem;
+    margin-top: 5rem;
+}
+
+.ax2image {
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: inherit;
+    margin-left: 10rem;
+}
+
+.ax2text {
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: inherit;
+    margin-left: 50rem;
+}
+
+.cx1 {
+    background-color: red;
+    height: 10rem;
+    margin-top: 5rem;
+}
+
+.cx2image {
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: inherit;
+    margin-left: 10rem;
+}
+
+.cx2text {
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: inherit;
+    margin-left: 50rem;
+}
+
+.dx1 {
+    background-color: red;
+    height: 10rem;
+    margin-top: 5rem;
+}
+
+.dx2image {
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: inherit;
+    margin-left: 10rem;
+}
+
+.dx2text {
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: inherit;
+    margin-left: 50rem;
+}
+
+.ex1 {
+    background-color: red;
+    height: 10rem;
+    margin-top: 5rem;
+}
+
+.ex2image {
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: inherit;
+    margin-left: 10rem;
+}
+
+.ex2text {
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: inherit;
+    margin-left: 50rem;
+}
+
+.fx1 {
+    background-color: red;
+    height: 10rem;
+    margin-top: 5rem;
+}
+
+.fx2image {
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: inherit;
+    margin-left: 10rem;
+}
+
+.fx2text {
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: inherit;
+    margin-left: 50rem;
+}
+
+.gx1 {
+    background-color: red;
+    height: 10rem;
+    margin-top: 5rem;
+}
+
+.gx2image {
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: inherit;
+    margin-left: 10rem;
+}
+
+.gx2text {
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: inherit;
+    margin-left: 50rem;
+}
+
+.hx1 {
+    background-color: red;
+    height: 10rem;
+    margin-top: 5rem;
+}
+
+.hx2image {
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: inherit;
+    margin-left: 10rem;
+}
+
+.hx2text {
+    position: absolute;
+    background-color: green;
+    width: 30%;
+    height: inherit;
+    margin-left: 50rem;
+}
+
+.qft-course {
+    position: static;
+    margin-top: 10rem;
+}
+
+.gr-course {
+    position: static;
+    background-color: red;
+    margin-top: 10rem;
+}
+
 .courses-info.image {
-    position: fixed;
+    position: absolute;
     background-color: blueviolet;
     width: 20%;
     height: 30%;
     margin-left: 10%;
-    margin-bottom: 30%;
 }
 
 .courses-info.text {
-    position: fixed;
+    position: absolute;
     width: 50%;
     height: 30%;
     margin-left: 32%;
-    margin-bottom: 40%;
 }
 
 .thesisButton {
