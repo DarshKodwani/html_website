@@ -137,6 +137,7 @@ nav li a {
     width: 30%;
     height: inherit;
     margin-left: 10rem;
+    margin-top: 3rem;
 }
 
 .QFTtext {
@@ -145,28 +146,28 @@ nav li a {
     width: 30%;
     height: inherit;
     margin-left: 50rem;
+    margin-top: 3rem;
 }
 
-.ax1 {
-    background-color: red;
+.GR {
     height: 10rem;
-    margin-top: 7rem;
+    margin-top: 10rem;
 }
 
-.ax2image {
+.GRimage {
     position: absolute;
-    background-color: green;
     width: 30%;
     height: inherit;
     margin-left: 10rem;
+    margin-top: 3rem;
 }
 
-.ax2text {
+.GRtext {
     position: absolute;
-    background-color: green;
     width: 30%;
     height: inherit;
     margin-left: 50rem;
+    margin-top: 3rem;
 }
 
 .cx1 {
