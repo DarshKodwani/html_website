@@ -170,32 +170,31 @@ nav li a {
     margin-top: 3rem;
 }
 
-.cx1 {
-    background-color: red;
+.CM {
     height: 10rem;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
-.cx2image {
+.CMimage {
     position: absolute;
-    background-color: green;
     width: 30%;
     height: inherit;
     margin-left: 10rem;
+    margin-top: 3rem;
 }
 
-.cx2text {
+.CMtext {
     position: absolute;
-    background-color: green;
     width: 30%;
     height: inherit;
     margin-left: 50rem;
+    margin-top: 3rem;
 }
 
 .dx1 {
     background-color: red;
     height: 10rem;
-    margin-top: 5rem;
+    margin-top: 13rem;
 }
 
 .dx2image {
