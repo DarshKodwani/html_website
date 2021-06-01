@@ -126,12 +126,12 @@ nav li a {
     margin: 2rem;
 }
 
-.bx1 {
+.QFT {
     height: 10rem;
     margin-top: 5rem;
 }
 
-.bx2image {
+.QFTimage {
     margin-top: 1%;
     position: absolute;
     width: 30%;
@@ -139,7 +139,7 @@ nav li a {
     margin-left: 10rem;
 }
 
-.bx2text {
+.QFTtext {
     margin-top: 1%;
     position: absolute;
     width: 30%;
