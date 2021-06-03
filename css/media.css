@@ -122,6 +122,14 @@ nav li a {
     transition: 0.5s color ease-in-out;
 }
 
+.outreach {
+    margin-top: 2%;
+}
+
+.tech {
+    margin-top: 2%;
+}
+
 .media_content {
     margin-top: 2%;
 }
@@ -132,9 +140,20 @@ nav li a {
     text-align: center;
 }
 
+.comsinfo {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
 .aiforgood {
+    margin: 2rem;
     width: 420;
     height: 345;
+}
+
+.uoftyoutube {
+    margin: 2rem;
 }
 
 .uoft {
