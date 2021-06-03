@@ -121,3 +121,7 @@ nav li {
 nav li a {
     transition: 0.5s color ease-in-out;
 }
+
+.media_content {
+    margin-top: 2%;
+}
