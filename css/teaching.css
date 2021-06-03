@@ -3,8 +3,8 @@
 .btn-primary:hover,
 .btn-success:hover {
     color: #fff;
-    background-color: #00b3db;
-    border-color: #285e8e;
+    background-color: grey;
+    border-color: grey;
     /*set the color you want here*/
 }
 
@@ -32,8 +32,8 @@
     height: 10px;
     width: 90%;
     opacity: 0;
-    background: -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
-    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+    background: -webkit-radial-gradient(center, ellipse, rgba(243, 248, 248, 0.35) 0%, rgba(240, 221, 221, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(233, 233, 236, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
     /* W3C */
     transition-duration: 0.3s;
     transition-property: transform, opacity;
@@ -43,6 +43,7 @@
 .hoverable:active,
 .hoverable:focus {
     transform: translateY(-5px);
+    color: rgb(131, 122, 122);
 }
 
 .hoverable:hover:before,
@@ -119,6 +120,10 @@ nav li {
 
 nav li a {
     transition: 0.5s color ease-in-out;
+}
+
+.teaching_content {
+    margin-top: 2%;
 }
 
 .intro_comment {
