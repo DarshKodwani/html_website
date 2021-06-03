@@ -122,8 +122,9 @@ nav li a {
 }
 
 .intro_comment {
-    background-color: grey;
-    margin: 2rem;
+    text-align: center;
+    width: 80%;
+    margin: auto;
 }
 
 .QFT {
@@ -191,114 +192,109 @@ nav li a {
     margin-top: 3rem;
 }
 
-.dx1 {
-    background-color: red;
+.maths {
     height: 10rem;
     margin-top: 13rem;
 }
 
-.dx2image {
+.mathsimage {
     position: absolute;
-    background-color: green;
     width: 30%;
     height: inherit;
     margin-left: 10rem;
+    margin-top: 3rem;
 }
 
-.dx2text {
+.mathstext {
     position: absolute;
-    background-color: green;
     width: 30%;
     height: inherit;
     margin-left: 50rem;
+    margin-top: 3rem;
 }
 
-.ex1 {
-    background-color: red;
+.QT {
     height: 10rem;
-    margin-top: 5rem;
+    margin-top: 13rem;
 }
 
-.ex2image {
+.QTimage {
     position: absolute;
-    background-color: green;
     width: 30%;
     height: inherit;
     margin-left: 10rem;
+    margin-top: 3rem;
 }
 
-.ex2text {
+.QTtext {
     position: absolute;
-    background-color: green;
     width: 30%;
     height: inherit;
     margin-left: 50rem;
+    margin-top: 3rem;
 }
 
-.fx1 {
-    background-color: red;
+.QM {
     height: 10rem;
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
-.fx2image {
+.QMimage {
     position: absolute;
-    background-color: green;
     width: 30%;
     height: inherit;
     margin-left: 10rem;
+    margin-top: 3rem;
 }
 
-.fx2text {
+.QMtext {
     position: absolute;
-    background-color: green;
     width: 30%;
     height: inherit;
     margin-left: 50rem;
+    margin-top: 3rem;
 }
 
-.gx1 {
-    background-color: red;
+.SM {
     height: 10rem;
-    margin-top: 5rem;
+    margin-top: 13rem;
 }
 
-.gx2image {
+.SMimage {
     position: absolute;
-    background-color: green;
     width: 30%;
     height: inherit;
     margin-left: 10rem;
+    margin-top: 3rem;
 }
 
-.gx2text {
+.SMtext {
     position: absolute;
-    background-color: green;
     width: 30%;
     height: inherit;
     margin-left: 50rem;
+    margin-top: 3rem;
 }
 
-.hx1 {
-    background-color: red;
+.magic {
     height: 10rem;
-    margin-top: 5rem;
+    margin-top: 13rem;
 }
 
-.hx2image {
+.magicimage {
     position: absolute;
-    background-color: green;
     width: 30%;
     height: inherit;
     margin-left: 10rem;
+    margin-top: 3rem;
 }
 
-.hx2text {
+.magictext {
     position: absolute;
-    background-color: green;
     width: 30%;
     height: inherit;
     margin-left: 50rem;
+    margin-top: 3rem;
 }
 
 .qft-course {
