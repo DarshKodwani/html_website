@@ -1,50 +1,50 @@
 jQuery(window).on('load', function() {
-	"use strict";
-    
-    
+    "use strict";
+
+
     // HIDE PRELOADER
-    $(".preloader").addClass("hide-preloader");   
-    
+    $(".preloader").addClass("hide-preloader");
+
     // SHOW/ANIMATE ANIMATION CONTAINER
-    setTimeout(function(){
+    setTimeout(function() {
 
         $("#intro .animation-container").each(function() {
 
             var e = $(this);
 
-            setTimeout(function(){
+            setTimeout(function() {
 
                 e.addClass("run-animation");
 
-            }, e.data("animation-delay") );
+            }, e.data("animation-delay"));
 
         });
 
-    }, 700 );
+    }, 700);
 
-    
+
 });
 
 
 jQuery(document).ready(function($) {
-	"use strict";
-    
-    
+    "use strict";
+
+
     // SMOOTH SCROLL FOR SAME PAGE LINKS
     $(document).on('click', 'a.smooth-scroll', function(event) {
-        
+
         event.preventDefault();
 
         $('html, body').animate({
-            scrollTop: $( $.attr(this, 'href') ).offset().top - 80
+            scrollTop: $($.attr(this, 'href')).offset().top - 80
         }, 500);
-        
+
     });
-    
-    
+
+
     // SCROLL REVEAL SETUP
     window.sr = ScrollReveal();
-    sr.reveal(".scroll-animated", { 
+    sr.reveal(".scroll-animated", {
         duration: 600,
         delay: 0,
         origin: "left",
@@ -54,8 +54,8 @@ jQuery(document).ready(function($) {
         viewFactor: 0.4,
         scale: 1,
     });
-    
-    
+
+
     // AJAX CONTACT FORM SUBMIT
     $("#contact-form").submit(function(e) {
 
@@ -72,7 +72,7 @@ jQuery(document).ready(function($) {
 
                 $("#contact-form input, #contact-form textarea").removeClass("error");
 
-                setTimeout(function(){
+                setTimeout(function() {
 
                     if (json.nameMessage !== "") {
 
@@ -99,12 +99,12 @@ jQuery(document).ready(function($) {
                     $("#contact-form.error input, #contact-form.error textarea").removeClass("error");
                     $('#contact-form').addClass("success");
                     $('#contact-form textarea, #contact-form input').val("");
-                    
-                    setTimeout(function(){
-                        
+
+                    setTimeout(function() {
+
                         $('#contact-form').removeClass("success");
-                        
-                    },4000);
+
+                    }, 4000);
 
                 }
 
@@ -114,5 +114,5 @@ jQuery(document).ready(function($) {
 
     });
 
-    
+
 });
