@@ -143,7 +143,7 @@ h2 {
 }
 
 body {
-    background-color: black;
+    background-image: url("../Images/background.jpeg");
     font-weight: 600;
     text-align: center !important;
     color: white;
