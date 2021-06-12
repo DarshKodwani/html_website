@@ -9,12 +9,13 @@
 	--  02. Preloader
     --  03. Image Container
     --  04. Content Area
-    --  05. Content Area --> Intro
-    --  06. Content Area --> About
-    --  07. Content Area --> Service
-    --  08. Content Area --> Work
-    --  09. Content Area --> Contact
-    --  10. Content Area --> Footer
+    --  05. Content Area --> Navbar
+    --  06. Content Area --> Intro
+    --  07. Content Area --> About
+    --  08. Content Area --> Service
+    --  09. Content Area --> Work
+    --  10. Content Area --> Contact
+    --  11. Content Area --> Footer
  
  
  ******************************************************************/
@@ -242,7 +243,24 @@ button {
 }
 
 
-/** 5. Content Area --> Intro
+/** 5. Content Area --> Navbar
+*******************************************************************/
+
+.navbar {
+    margin: 3rem;
+}
+
+.nav-item {
+    margin: 1%;
+}
+
+.nav-item:hover {
+    color: rgb(91, 91, 253);
+    text-emphasis-color: rgb(91, 91, 253);
+}
+
+
+/** 6. Content Area --> Intro
 *******************************************************************/
 
 #intro {
@@ -397,7 +415,7 @@ button {
 }
 
 
-/** 6. Content Area --> About
+/** 7. Content Area --> About
 *******************************************************************/
 
 #about p {
@@ -413,7 +431,7 @@ button {
 }
 
 
-/** 7. Content Area --> Service
+/** 8. Content Area --> Service
 *******************************************************************/
 
 #service .services-list {
@@ -472,7 +490,7 @@ button {
 }
 
 
-/** 8. Content Area --> Work
+/** 9. Content Area --> Work
 *******************************************************************/
 
 #work .showcase .item {
@@ -641,7 +659,7 @@ button {
 }
 
 
-/** 9. Content Area --> Contact
+/** 10. Content Area --> Contact
 *******************************************************************/
 
 #contact #contact-form {
@@ -830,7 +848,7 @@ button {
 }
 
 
-/** 10. Content Area --> Footer
+/** 11. Content Area --> Footer
 *******************************************************************/
 
 #footer .social-icons {

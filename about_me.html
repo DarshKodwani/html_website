@@ -23,7 +23,7 @@
     <!-- STYLESHEETS -->
     <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-
+    <script src="https://kit.fontawesome.com/a67cc6a017.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -56,14 +56,22 @@
         <!-- CONTENT AREA INNER -->
         <div class="content-area-inner">
 
-
             <!-- INTRO -->
             <section id="intro">
 
+                <!-- NAVBAR-->
+                <div class="navbar">
+                    <a class="active" href="index.html"><i class="fa fa-fw fa-home nav-item"></i> Home</a>
+                    <a href="about_me.html"><i class="fa fa-fw fa-globe nav-item"></i> About me</a>
+                    <a href="research.html"><i class="fas fa-fw fa-atom nav-item"></i> Research</a>
+                    <a href="teaching.html"><i class="fas fa-fw fa-chalkboard-teacher nav-item"></i> Teaching</a>
+                    <a href="consulting.html"><i class="fas fa-fw fa-business-time nav-item"></i> Consulting</a>
+                    <a href="media.html"><i class="fas fa-fw fa-microphone nav-item"></i> Media </a>
+                </div>
+                <!-- /NAVBAR-->
 
                 <!-- CONTAINER MID -->
                 <div class="container-mid">
-
 
                     <!-- ANIMATION CONTAINER -->
                     <div class="animation-container animation-fade-right" data-animation-delay="0">
@@ -733,40 +741,6 @@
             </section>
             <!-- /ABOUT -->
 
-            <!-- CONTACT -->
-            <section id="contact">
-
-
-                <h3 class="headline scroll-animated">Contact Me</h3>
-
-
-                <!-- CONTACT FORM -->
-                <form id="contact-form" action="assets/php/contact.php" method="post">
-
-
-                    <input id="contact-form-name" type="text" name="name" class="form-control scroll-animated" placeholder="* Your Name">
-
-                    <input id="contact-form-email" type="text" name="email" class="form-control scroll-animated" placeholder="* Your Email">
-
-                    <!-- PHANTOM ELEMENT ( HONEYPOT CAPTCHA FOR SECURITY ) -->
-                    <div class="fhp-input"><input id="contact-form-company" type="text" name="company" class="form-control"></div>
-                    <!-- /PHANTOM ELEMENT ( HONEYPOT CAPTCHA FOR SECURITY ) -->
-
-                    <textarea id="contact-form-message" name="message" class="form-control scroll-animated" placeholder="* Your Message"></textarea>
-
-                    <button type="submit" class="form-control scroll-animated">Send Message<div class="circle"><i class="fa fa-angle-right" aria-hidden="true"></i><i class="fa fa-angle-right" aria-hidden="true"></i></div></button>
-
-                    <div class="success-message"><i class="fa fa-check" aria-hidden="true"></i>The Email was Sent Successfully!</div>
-
-
-                </form>
-                <!-- /CONTACT FORM -->
-
-
-            </section>
-            <!-- /CONTACT -->
-
-
             <!-- FOOTER -->
             <section id="footer">
 
@@ -783,10 +757,6 @@
 
                 </ul>
                 <!-- /SOCIAL ICONS -->
-
-
-                <p class="scroll-animated">© 2017 Your Brand | Design by <a href="https://templatefoundation.com">Template Foundation</a></p>
-
 
             </section>
             <!-- /FOOTER -->
