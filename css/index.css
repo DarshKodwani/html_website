@@ -43,6 +43,7 @@ body {
 
 .name-navitem {
     color: white;
+    text-decoration: none;
 }
 
 .name-navitem:hover {
