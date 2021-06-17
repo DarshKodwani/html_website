@@ -4,8 +4,12 @@ body {
     background-image: url("../Images/background.jpeg");
 }
 
+.colored-section {
+    margin-bottom: 3rem;
+}
+
 #testimonials {
-    background-color: rgb(175, 175, 175);
+    background-color: rgba(175, 175, 175, 0.678);
     padding-top: 3rem;
     margin-top: 2rem;
 }
@@ -19,6 +23,11 @@ body {
 .testimonial-image {
     width: 10%;
     border-radius: 100%;
+    margin: 20px;
+}
+
+.skills-image {
+    width: 30%;
     margin: 20px;
 }
 
