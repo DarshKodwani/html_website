@@ -48,9 +48,9 @@ body {
 
 @media (max-width: 480px) {
     .name-navitem {
-        color: red;
+        color: white;
         text-decoration: none;
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 .name-navitem:hover {
