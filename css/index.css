@@ -11,7 +11,7 @@ video#bgvid {
 <style>* {
     box-sizing: border-box;
 }
-
+ 
 body {
     margin: 0;
     font-family: Arial;
@@ -46,6 +46,13 @@ body {
     text-decoration: none;
 }
 
+@media (max-width: 480px) {
+    .name-navitem {
+        color: red;
+        text-decoration: none;
+        font-size: 10px;
+    }
+}
 .name-navitem:hover {
     color: white;
 }
