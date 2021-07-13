@@ -28,8 +28,8 @@ body {
     margin-right: auto;
     margin-bottom: 2em;
     margin-top: 2em;
-    width: 150;
-    height: 200;
+    width: 500;
+    height: 500;
     border-radius: 100%;
 }
 
@@ -79,7 +79,7 @@ body {
 
 .content {
     position: fixed;
-    top: 20%;
+    top: 10%;
     color: #f1f1f1;
     width: 100%;
 }
@@ -104,7 +104,7 @@ body {
 }
 
 #lab_social_icon_footer {
-    padding: 40px 0;
+    padding: 5px 0;
 }
 
 #lab_social_icon_footer a {
